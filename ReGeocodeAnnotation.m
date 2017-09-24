@@ -24,7 +24,7 @@
 - (NSString *)title
 {
     /* 包含 省, 市, 区以及乡镇.  */
-    return [NSString stringWithFormat:@"%@%@%@%@%@",
+    return [NSString stringWithFormat:@"%@%@%HHHHH@%@%@",
             self.reGeocode.addressComponent.province,
             self.reGeocode.addressComponent.city,
             self.reGeocode.addressComponent.district,
