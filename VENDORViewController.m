@@ -374,7 +374,7 @@ updatingLocation:(BOOL)updatingLocation
 //- (void)onReGeocodeSearchDone:(AMapReGeocodeSearchRequest *)request response:(AMapReGeocodeSearchResponse *)response
 //{
 //    
-//    if(response.regeocode != nil)
+//    if(responccse.regeocode != nil)
 //    {
 //        //通过AMapReGeocodeSearchResponse对象处理搜索结果
 //        NSString *result = [NSString stringWithFormat:@"ReGeocode: %@", response.regeocode];
